@@ -55,7 +55,7 @@ const TEMPLATE = [
 
 registerBlockType("cgb/block-customblock-contact", {
   title: __("customblock - contact"),
-  icon: "id",
+  icon: "hummer",
   category: "customblock",
   keywords: [__("customblock — contact")],
 
