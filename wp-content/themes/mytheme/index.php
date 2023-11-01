@@ -1,0 +1,18 @@
+<?php
+// Header
+get_header();
+?>
+
+<?php if (have_posts()) {
+    while (have_posts()) {
+        the_post();
+        the_content();
+    }
+}
+
+?>
+
+<?php
+// Footer
+get_footer();
+?>

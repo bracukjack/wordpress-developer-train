@@ -1,0 +1,44 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+$mobile-1: 640px;
+
+.wp-block-widiblocks-contact {
+  color: #ffffff;
+  background: linear-gradient(180deg, #f18825 0%, #f46565 100%);
+  mix-blend-mode: normal;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.has-text-align-center {
+  &.heading-contact {
+    margin-top: 64px;
+    margin-bottom: 36px;
+    @media (max-width: $mobile-1) {
+      margin: auto;
+    }
+  }
+  &.paragraph-contact {
+    margin-bottom: 36px;
+    @media (max-width: $mobile-1) {
+      margin: auto;
+    }
+  }
+}
+
+.wp-block-button {
+  &.button-contact {
+    color: #ffffff;
+    background-color: #2b3dec;
+    margin: auto;
+    margin-bottom: 36px;
+    align-content: center;
+  }
+  @media (max-width: $mobile-1) {
+    margin: auto;
+  }
+}

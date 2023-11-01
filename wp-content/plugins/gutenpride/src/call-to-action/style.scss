@@ -1,0 +1,42 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+$mobile-1: 640px;
+
+.wp-block-widiblocks {
+  color: #000000;
+  margin: 0 auto;
+  padding: 2rem;
+  max-width: 1300px;
+}
+
+.has-text-align-left {
+  &.heading-cta {
+    margin-left: 30px;
+    margin-top: 60px;
+    margin-bottom: 36px;
+    @media (max-width: $mobile-1) {
+      margin: 20px;
+    }
+  }
+  &.paragraph-cta {
+    margin-left: 30px;
+    margin-bottom: 36px;
+    @media (max-width: $mobile-1) {
+      margin: 20px;
+    }
+  }
+}
+
+.wp-block-button {
+  &.button-cta {
+    background-color: #000000;
+    margin-bottom: 36px;
+  }
+  @media (max-width: $mobile-1) {
+    margin: 20px;
+  }
+}
